@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    line-height: 1.6;
+    text-align: center; /* Added text alignment for body content */
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    color: red; /* Optional: Customize the color of the heading */
+}
+h2{
+    color: black;
+    text-align:center;
+}
+
+p {
+    text-align: center;
+    font-size: 1.1em; /* Increases font size */
+    line-height: 1.8; /* Adds more space between lines */
+    margin: 20px auto; /* Centers the paragraph with some margin */
+    max-width: 800px; /* Optional: Limits the width for better readability */
+    padding: 10px;
+    color: #555; /* Optional: Change text color for better contrast */
+    background-color: #f9f9f9; /* Optional: Adds a background color */
+    border-radius: 8px; /* Optional: Adds rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+}
+
+.center-image {
+    display: block;
+    margin: 20px auto; /* Centers the image and adds margin */
+    max-width: 100%; /* Ensures the image is responsive */
+    height: auto; /* Maintains the aspect ratio */
+}
+
+.cta-button {
+    display: inline-block;
+    background: #7d7c7b;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
